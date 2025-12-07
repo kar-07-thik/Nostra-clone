@@ -23,6 +23,7 @@ background-color: white;
     position: absolute;
     z-index: 1;
     display: none;
+
 }
 .navbar__slide a{
     margin: 10px;
@@ -32,6 +33,64 @@ background-color: white;
 }
 .slider{
     position: relative;
+}
+.slider{
+    overflow: hidden;
+    display: flex;
+    width:100%;
+    position: relative;
+    border-radius: 5px;
+}
+
+.slider-image-container{
+    display: flex;
+    transition: 2s;
+}
+
+.slider-image{
+    width:100vw;
+}
+
+.slider-left-button{
+    position:absolute;
+    top:35%;
+    left:5%;
+    z-index: 1;
+}
+
+.slider-left-button i{
+    font-size: 10vw;
+}
+
+
+.slider-right-button{
+    position: absolute;
+    top:35%;
+    right:5%;
+    z-index: 1;
+}
+
+.slider-right-button i{
+    font-size:10vw;
+    color:white;
+}
+
+.slider-content{
+    position: absolute;
+    color:white;
+    text-align: center;
+    width:100%;
+    top:20%;
+}
+
+.slider-content h1{
+    font-size: 5vw;
+}
+
+.slider-content button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    color:#1D232C;
 }
 .slider__desc{
     display: flex;
@@ -289,4 +348,5 @@ font-size: 8px;
     width: 70%;
     margin: 10px;
 }
+
 }

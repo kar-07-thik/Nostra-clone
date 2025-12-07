@@ -18,7 +18,7 @@
 <body class="m-4">
 
     <p class="bg-black text-center text-white p-2">sign up and <span class="text-white font-bold">GET 20% OFF</span>
-        your frist order <span class="text-white ml-5 ">X</span></p>
+        your frist order <span class="text-white ml-5 " id="top__ad__close">X</span></p>
 
     <!-- navbar -->
     <nav class="navbar">
@@ -28,7 +28,7 @@
             <a href="">Home</a>
             <a href="#newarrivals">New Arrival</a>
             <a href="#mostwanted">Most Wanted</a>
-            <a href="">Collections</a>
+            <a href="./collection.html">Collections</a>
             <a href="contact.html">contact us</a>
         </div>
         <!-- mobileview icon -->
@@ -45,19 +45,20 @@
         <a href="">Home</a>
         <a href="#newarrivals">New Arrival</a>
         <a href="#mostwanted">Most Wanted</a>
-        <a href="collection.html">Collections</a>
+        <a href="./collection.html">Collections</a>
         <a href="contact.html">contact us</a>
     </div>
     <!-- main-content -->
     <div class="slider">
-        <div>
-            <img src="./imgaes/slider-one.jpg" class="rounded-md" width="100%">
-            <img src="">
+        <div class="slider-image-container">
+            <img src="./imgaes/slider-one.jpg" width="100%" class="slider-image">
+            <img src="./imgaes/slider-one.jpg"  width="100%" class="slider-image">
+            <img src="./imgaes/slider-one.jpg"  width="100%" class="slider-image">
         </div>
 
         <div class="slider__desc">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="white"
-                class="h-10 md:h-20">
+                class="h-10 md:h-20" id="slider-left-activate" >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
             </svg>
             <div class="text-center">
@@ -67,7 +68,7 @@
             </div>
 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="white"
-                class="h-10 md:h-20">
+                class="h-10 md:h-20" id="slider-right-activate">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
             </svg>
 
