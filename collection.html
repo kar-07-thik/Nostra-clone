@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOSTRA</title>
+    <!-- tailwindcss cdn link -->
+    <link href=" https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css " rel="stylesheet">
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome cdn link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- script link -->
+   <script src="script.js" defer></script>
+</head>
+
+<body class="m-4">
+
+    <p class="bg-black text-center text-white p-2">sign up and <span class="text-white font-bold">GET 20% OFF</span>
+        your frist order <span class="text-white ml-5 ">X</span></p>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="text-3xl font-bold md:text-4xl">NOSTRA</h1>
+        <!-- desktopview menu -->
+        <div class="navbar__menu">
+            <a href="">Home</a>
+            <a href="#newarrivals">New Arrival</a>
+            <a href="#mostwanted">Most Wanted</a>
+            <a href="">Collections</a>
+            <a href="">contact us</a>
+        </div>
+        <!-- mobileview icon -->
+        <div class="navbar__menuicon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                stroke="currentColor" class="w-5 h-10" id="navicon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </div>
+    </nav>
+
+    <div class="navbar__slide">
+        <p class="navbar__slide__close">X</p>
+        <a href="index.html">Home</a>
+        <a href="#newarrivals">New Arrival</a>
+        <a href="#mostwanted">Most Wanted</a>
+        <a href="">Collections</a>
+        <a href="contact.html">contact us</a>
+    </div>
+    <!-- main content -->
+    <section id="collection__left">
+        <div class="collection__s1">
+            <div class="collection__container">
+                <h1 class="font-bold text-4xl">Occasion</h1>
+                <div class="collection__container__desc">
+                    <lable><input type="checkbox">Summer</lable>
+                    <lable><input type="checkbox">Party</lable>
+                    <lable><input type="checkbox">Beach</lable>
+
+                </div>
+
+            </div>
+            <div class="collection__container">
+                <h1 class="font-bold text-4xl">Color</h1>
+                <div class="collection__container__desc">
+                    <lable><input type="checkbox">Red</lable>
+                    <lable><input type="checkbox"> Green</lable>
+                    <lable><input type="checkbox">white</lable>
+                    <lable><input type="checkbox">Blue</lable>
+
+                </div>
+
+
+            </div>
+            <div class="collection__container">
+                <h1 class="font-bold text-4xl">Arrivals</h1>
+                <div class="collection__container__desc">
+                    <lable><input type="checkbox">New</lable>
+                    <lable><input type="checkbox"> Old</lable>
+                </div>
+            </div>
+
+        </div>
+        <section id="collection__right">
+            <div class="collection__s2">
+                <div class="collection__searchbox">
+
+                    <input type="text" placeholder="search">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" class="h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                </div>
+                <section id="summer">
+                    <div class="summer__container">
+
+                        <div class="summer__card">
+
+                            <img src="./imgaes/most-img1.jpg" alt="">
+                        </div>
+                        <div class="summer__card">
+                            <img src="./imgaes/most-img2.jpg" alt="">
+                        </div>
+                        <div class="summer__card">
+                            <img src="./imgaes/most-img3.jpg" alt="">
+                        </div>
+                        <div class="summer__card">
+                            <img src="./imgaes/most-img4.jpg" alt="">
+                        </div>
+                        <div class="summer__card">
+                            <img src="./imgaes/most-img5.jpg" alt="">
+                        </div>
+                        <div class="summer__card">
+                            <img src="./imgaes/most-img6.jpg" alt="">
+                        </div>
+                        <div class="summer__card">
+                            <img src="./imgaes/most-img6.jpg" alt="">
+                        </div>
+                        <div class="summer__card">
+                            <img src="./imgaes/most-img8.jpg" alt="">
+                        </div>
+                        <div class="summer__card">
+                            <img src="./imgaes/most-img8.jpg" alt="">
+                        </div>
+                    </div>
+                </section>
+        </section>
+        <!-- join -->
+    </section>
+  <section id="join">
+    <div class="join">
+        <h1 class="text-2xl font-bold md:text-4xl">Join our News Letter</h1>
+        <p class=" md:text-2xl">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <input class="join__inputbox" type="text"> 
+        <button class="join__btn">subscribe -></button>
+    </div>
+  </section>
+
+  <!-- footer -->
+
+   <section id="footer">
+    <div class="footer">
+        <div class="footer__desc">
+    <h1 class="text-2xl font-bold">Nostra</h1>
+   <p class="font-bold">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+
+   <p>&copy; 2023 Nostra.com</p>
+        </div>
+
+    </div>
+   </section>
+
+
+</body>
+
+</html>
