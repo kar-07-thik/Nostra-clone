@@ -12,19 +12,19 @@
     <!-- fontawesome cdn link -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <!-- script link -->
-    <script src="script.js" defer></script>
+    <script src="index.js" defer></script>
 </head>
 
 <body class="m-4">
 
     <p class="bg-black text-center text-white p-2">sign up and <span class="text-white font-bold">GET 20% OFF</span>
-        your frist order <span class="text-white ml-5 " id="top__ad__close">X</span></p>
+        your frist order <span class="text-white ml-5 cursor-pointer " id="top__ad__close">X</span></p>
 
     <!-- navbar -->
     <nav class="navbar">
-        <h1 class="text-3xl font-bold md:text-4xl">NOSTRA</h1>
+        <h1 class="text-2xl font-bold md:text-4xl">NOSTRA</h1>
         <!-- desktopview menu -->
-        <div class="navbar__menu">
+        <div class="navbar__desk">
             <a href="">Home</a>
             <a href="#newarrivals">New Arrival</a>
             <a href="#mostwanted">Most Wanted</a>
@@ -62,9 +62,9 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
             </svg>
             <div class="text-center">
-                <h1 class="font-bold text-2xl text-white md:text-6xl">Level up your style with our</h1>
-                <h2 class="font-bold text-1x text-white md:text-4xl">Summer Collection</h2>
-                <button class="text-0.5xl border bg-white rounded-md p-1">Shop Now</button>
+                <h1 class="font-bold  text-white">Level up your style with our</h1>
+                <h2 class="text-white">Summer Collection</h2>
+                <button class=" bg-gray-300 rounded-md p-2 md:text-2xl">Shop Now</button>
             </div>
 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="white"
@@ -78,7 +78,7 @@
     <!-- Brands -->
     <section class="brands">
         <h1 class="text-2xl font-bold mt-4">Brands</h1>
-        <div class="flex items-center justify-around ml-3" style="font-size: 10px;">
+        <div class="brand__container">
             <div>
                 <img src="./imgaes/puma-icon.png" width="30%">
                 <p>Puma</p>
@@ -177,22 +177,26 @@
             <div class="newarrivals__container">
                 <div class="newarrivals__card">
                     <img src="./imgaes/newarrivals-1.avif">
+                    <div class="opacity"></div>
                     <button class="newarrivals__btn"
-                        >Shop Now</button>
+                        >Shop Now →</button>
                 </div>
                 <div  class="newarrivals__card">
                     <img src="./imgaes/newarrivals-2.jpg">
+                    <div class="opacity"></div>
                     <button class="newarrivals__btn" >Shop Now</button>
                 </div>
                 <div  class="newarrivals__card">
                     <img src="./imgaes/newarrivals-1.avif">
+                    <div class="opacity"></div>
                     <button class="newarrivals__btn">Shop
-                        Now</button>
+                        Now →</button>
                 </div>
                 <div  class="newarrivals__card">
                     <img src="./imgaes/newarrivals-1.avif">
+                    <div class="opacity"></div>
                     <button class="newarrivals__btn">Shop
-                        Now</button>
+                        Now →</button>
                 </div>
             </div>
         </div>
@@ -238,13 +242,12 @@
     <!-- Limited offer -->
     <section>
         <div class="limited__offer">
-            <img src="./imgaes/limited-offer-img.jpg" width="50%" class="m-6">
+            <img src="./imgaes/limited-offer-img.jpg" width="50%" class="m-2">
             <div class="limited__offer__desc ">
-                <h1 class="text-5xl font-bold">Limited Offer</h1>
-                <h2 class="text-1xl font-bold">35% OFF on this for</h2>
-                <h3 class="text-1xl font-bold">the first 30</h3>
-                <h3 class="text-1xl font-bold">Customers</h3>
-                <button class="mt-4 bg-white text-black p-1 rounded">shop Now -></button>
+                <h1 class="font-bold">Limited Offer 35% OFF on this for the first 30</h1>
+             
+                <h3>Customers</h3>
+                <button class="mt-2 bg-white text-black p-1 rounded">shop Now →</button>
             </div>
 
         </div>
@@ -254,7 +257,7 @@
     <section>
         <div class="join">
             <h1 class="text-2xl font-bold md:text-4xl">Join our News Letter</h1>
-            <p class=" md:text-2xl">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+            <p >Signup for our email newspaper to get exclusive discounts, updates, and more</p>
             <input class="join__inputbox" type="text">
             <button class="join__btn">subscribe -></button>
         </div>
