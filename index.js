@@ -7,7 +7,7 @@ navIcon.addEventListener("click", function () {
     console.log(navIcon)
 })
 navSlideClose.addEventListener("click", function () {
-    navSlide.style.left = '-45%'
+    navSlide.style.left = '-60%'
     console.log(navSlideClose)
 })
 var adClose = document.getElementById("top__ad__close")

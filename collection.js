@@ -10,6 +10,10 @@ navSlideClose.addEventListener("click", function () {
     navSlide.style.left = '-45%'
     console.log(navSlideClose)
 })
+var adClose = document.getElementById("top__ad__close")
+adClose.addEventListener("click", function () {
+    adClose.parentNode.style.display = 'none'
+})
 var search = document.getElementById("searchbox")
 var container = document.getElementById("productcontainer")
 var productList = container.querySelectorAll("div")
