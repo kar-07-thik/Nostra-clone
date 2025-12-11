@@ -1,5 +1,8 @@
-.body{
+body{
     background-position: fixed;
+}
+.body__margin{
+    margin: 10px;
 }
 .navbar {
     display: flex;

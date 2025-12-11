@@ -15,13 +15,13 @@
     <script src="collection.js" defer></script>
 </head>
 
-<body class="m-4">
-<div class="ad">
-<p class="bg-black text-center text-white p-2">sign up and <span class="text-white font-bold">GET 20% OFF</span>
-        your frist order <span class="text-white ml-5" id="top__ad__close">X</span></p>
+<body>
+    <div class="ad">
+        <p class="bg-black text-center text-white p-2">sign up and <span class="text-white font-bold">GET 20% OFF</span>
+            your frist order <span class="text-white ml-5" id="top__ad__close">X</span></p>
 
-</div>
-    
+    </div>
+
     <!-- navbar -->
     <nav class="navbar">
         <h1 class="text-3xl font-bold md:text-4xl">NOSTRA</h1>
@@ -51,98 +51,99 @@
         <a href="contact.html">contact us</a>
     </div>
     <!-- main content -->
-    <section id="collection">
-        <div class="collection__s1">
-            <div class="collection__container">
-                <h1 class="font-bold text-2xl md:text-4xl">Occasion</h1>
-                <div class="collection__container__desc">
-                    <lable><input type="checkbox" name="check"> Summer</lable>
-                    <lable><input type="checkbox" name="check"> Party</lable>
-                    <lable><input type="checkbox" name="check"> Beach</lable>
+    <section class="body__margin">
+        <section id="collection">
+            <div class="collection__s1">
+                <div class="collection__container">
+                    <h1 class="font-bold text-2xl md:text-4xl">Occasion</h1>
+                    <div class="collection__container__desc">
+                        <lable><input type="checkbox" name="check"> Summer</lable>
+                        <lable><input type="checkbox" name="check"> Party</lable>
+                        <lable><input type="checkbox" name="check"> Beach</lable>
 
+                    </div>
+
+                </div>
+                <div class="collection__container">
+                    <h1 class="font-bold text-2xl md:text-4xl">Color</h1>
+                    <div class="collection__container__desc">
+                        <lable><input type="checkbox" name="check"> Red</lable>
+                        <lable><input type="checkbox" name="check"> Green</lable>
+                        <lable><input type="checkbox" name="check"> white</lable>
+                        <lable><input type="checkbox" name="check"> Blue</lable>
+
+                    </div>
+
+
+                </div>
+                <div class="collection__container">
+                    <h1 class="font-bold text-2xl md:text-4xl">Arrivals</h1>
+                    <div class="collection__container__desc">
+                        <lable><input type="checkbox" name="check"> New</lable>
+                        <lable><input type="checkbox" name="check"> Old</lable>
+                    </div>
                 </div>
 
             </div>
-            <div class="collection__container">
-                <h1 class="font-bold text-2xl md:text-4xl">Color</h1>
-                <div class="collection__container__desc">
-                    <lable><input type="checkbox" name="check"> Red</lable>
-                    <lable><input type="checkbox" name="check"> Green</lable>
-                    <lable><input type="checkbox" name="check"> white</lable>
-                    <lable><input type="checkbox" name="check"> Blue</lable>
 
+            <div class="collection__s2">
+                <div class="collection__searchbox">
+
+                    <input id="searchbox" type="text" placeholder="search">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                        stroke="currentColor" class="h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
                 </div>
 
+                <div class="product__container" id="productcontainer">
 
+                    <div class="product__card" id="Party">
+
+                        <img src="./imgaes/most-img1.jpg" alt="">
+                        <h1>Party</h1>
+                        <p>$20</p>
+                    </div>
+                    <div class="product__card">
+                        <img src="./imgaes/most-img2.jpg" alt="">
+                        <h1>Summer</h1>
+                        <p>$30</p>
+                    </div>
+                    <div class="product__card">
+                        <img src="./imgaes/most-img3.jpg" alt="">
+                        <h1>Blue</h1>
+                        <p>$40</p>
+                    </div>
+                    <div class="product__card">
+                        <img src="./imgaes/most-img4.jpg" alt="">
+                        <h1>Red</h1>
+                        <p>$20</p>
+                    </div>
+                    <div class="product__card">
+                        <img src="./imgaes/most-img5.jpg" alt="">
+                        <h1>White</h1>
+                        <p>$20</p>
+                    </div>
+                    <div class="product__card">
+                        <img src="./imgaes/most-img6.jpg" alt="">
+                        <h1>pant</h1>
+                        <p>$60</p>
+                    </div>
+                    <div class="product__card">
+                        <img src="./imgaes/most-img6.jpg" alt="">
+                        <h1>pant</h1>
+                        <p>$20</p>
+                    </div>
+                    <div class="product__card">
+                        <img src="./imgaes/most-img8.jpg" alt="">
+                        <h1>Shrit</h1>
+                        <p>$30</p>
+                    </div>
+
+                </div>
             </div>
-            <div class="collection__container">
-                <h1 class="font-bold text-2xl md:text-4xl">Arrivals</h1>
-                <div class="collection__container__desc">
-                    <lable><input type="checkbox" name="check"> New</lable>
-                    <lable><input type="checkbox" name="check"> Old</lable>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="collection__s2">
-            <div class="collection__searchbox">
-
-                <input id="searchbox" type="text" placeholder="search">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
-                    stroke="currentColor" class="h-5">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                </svg>
-            </div>
-
-            <div class="product__container" id="productcontainer">
-
-                <div class="product__card" id="Party">
-
-                    <img src="./imgaes/most-img1.jpg" alt="">
-                    <h1>Party</h1>
-                    <p>$20</p>
-                </div>
-                <div class="product__card">
-                    <img src="./imgaes/most-img2.jpg" alt="">
-                    <h1>Summer</h1>
-                    <p>$30</p>
-                </div>
-                <div class="product__card">
-                    <img src="./imgaes/most-img3.jpg" alt="">
-                    <h1>Blue</h1>
-                    <p>$40</p>
-                </div>
-                <div class="product__card">
-                    <img src="./imgaes/most-img4.jpg" alt="">
-                    <h1>Red</h1>
-                    <p>$20</p>
-                </div>
-                <div class="product__card">
-                    <img src="./imgaes/most-img5.jpg" alt="">
-                    <h1>White</h1>
-                    <p>$20</p>
-                </div>
-                <div class="product__card">
-                    <img src="./imgaes/most-img6.jpg" alt="">
-                    <h1>pant</h1>
-                    <p>$60</p>
-                </div>
-                <div class="product__card">
-                    <img src="./imgaes/most-img6.jpg" alt="">
-                    <h1>pant</h1>
-                    <p>$20</p>
-                </div>
-                <div class="product__card">
-                    <img src="./imgaes/most-img8.jpg" alt="">
-                    <h1>Shrit</h1>
-                    <p>$30</p>
-                </div>
-
-            </div>
-        </div>
-
+        </section>
         <!-- join -->
     </section>
     <section id="join">
