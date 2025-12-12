@@ -28,6 +28,11 @@ sliderrightbutton.addEventListener("click",function(){
         sliderimage.style.marginLeft="-"+margin+"vw";
     }
 })
+
+const likes = document.getElementsByClassName("like")
+likes.addEventListener("click",function(){
+    console.log(likes)
+})
 // var sliderleftbutton = document.getElementById("slider-left-activate")
 // var sliderrightbutton =document.getElementById("slider-right-activate")
 // var sliderimage= document.querySelector(".slider-image-container")
